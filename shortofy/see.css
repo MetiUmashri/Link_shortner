@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'Outfit',sans-serif;
+    color: azure;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(180deg,#dd1313,#ff7300);
+}
+
+.wrapper{
+    background: linear-gradient(125.68deg, #d2d819, #f66f08);
+    border-radius: 10px;
+    padding: 18px 25px;
+    border: 1.5px solid whitesmoke;
+    text-align: center;
+    min-width: 400px;
+}
+
+h1{
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: white;
+}
+
+label{
+    text-align: left;
+    font-size: 15px;
+    font-weight: 500;
+    margin: 10px 0;
+    display: block;
+}
+
+input, textarea{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-size: 14px;
+    color: white;
+    font-weight: 500;
+}
+
+input::placeholder{
+    color: white;
+}
+
+.buttons{
+    display: flex;
+    gap:15px;
+}
+
+button{
+    width: 100%;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 8px;
+    background-color: transparent;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all a.4 ease;
+}
+
+button:hover{
+    background-color: white;
+    color: black;
+}
+
+.buttons button:hover i{
+    color: #000;
+}
+
+textarea{
+    resize: none;
+}
+
+small{
+    font-size: 10px;
+    font-weight: 500;
+}
+
+.logo {
+    position: fixed; 
+    top: 10px; 
+    left: 10px; 
+    width: 5px; 
+    height: -10px; 
+    z-index: 1000; 
+}
+
+h2{
+    text-align: center;
+    padding-bottom: 10px;
+}
